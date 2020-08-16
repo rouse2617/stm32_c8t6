@@ -1,0 +1,11 @@
+.\obj\dth11.o: app\DTH11.c
+.\obj\dth11.o: app\DTH11.h
+.\obj\dth11.o: .\user\delay.h
+.\obj\dth11.o: .\user\stm32f10x.h
+.\obj\dth11.o: .\user\core_cm3.h
+.\obj\dth11.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\obj\dth11.o: .\user\system_stm32f10x.h
+.\obj\dth11.o: .\user\stm32f10x_conf.h
+.\obj\dth11.o: .\FWlib\inc\stm32f10x_gpio.h
+.\obj\dth11.o: .\user\stm32f10x.h
+.\obj\dth11.o: .\FWlib\inc\stm32f10x_rcc.h

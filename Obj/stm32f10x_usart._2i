@@ -1,0 +1,6 @@
+-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I .\FWlib\inc -I .\user -I .\app -I .\app\usart -I .\FWlib\SRC
+-I"C:\Users\admin\Desktop\新建文件夹 (3)\QDtech_1.44串口模块_ST7735_Rev1.1\STM32 SPI综合测试代码\RTE"
+-ID:\soft_install\keil\Keil\STM32F1xx_DFP\1.0.5\Device\Include
+-IC:\Keil_v5\ARM\CMSIS\Include
+-D__UVISION_VERSION="521" -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD
+-o .\obj\stm32f10x_usart.o --omf_browse .\obj\stm32f10x_usart.crf --depend .\obj\stm32f10x_usart.d --feedback ".\Obj\STM32-FD-FLASHLED.fed" "FWlib\SRC\stm32f10x_usart.c"

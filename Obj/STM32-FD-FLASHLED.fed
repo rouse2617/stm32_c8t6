@@ -1,0 +1,222 @@
+;#<FEEDBACK># ARM Linker, 5060300: Last Updated: Sun Aug 09 23:46:15 2020
+;VERSION 0.2
+;FILE core_cm3.o
+__REV16 <= USED 0
+__REVSH <= USED 0
+__get_MSP <= USED 0
+__get_PSP <= USED 0
+__set_MSP <= USED 0
+__set_PSP <= USED 0
+;FILE delay.o
+;FILE dth11.o
+;FILE gui.o
+DisplayButtonDown <= USED 0
+DisplayButtonUp <= USED 0
+Gui_Circle <= USED 0
+Gui_DrawLine <= USED 0
+Gui_box <= USED 0
+Gui_box2 <= USED 0
+LCD_BGR2RGB <= USED 0
+;FILE lcd_driver.o
+Lcd_ReadPoint <= USED 0
+Lcd_SetXY <= USED 0
+Lcd_WriteReg <= USED 0
+;FILE main.o
+;FILE misc.o
+NVIC_PriorityGroupConfig <= USED 0
+NVIC_SetVectorTable <= USED 0
+NVIC_SystemLPConfig <= USED 0
+SysTick_CLKSourceConfig <= USED 0
+;FILE qdtft_demo.o
+Color_Test <= USED 0
+Font_Test <= USED 0
+Num_Test <= USED 0
+QDTFT_Test_Demo <= USED 0
+Redraw_Mainmenu <= USED 0
+showimage <= USED 0
+;FILE startup_stm32f10x_hd.o
+;FILE stm32f10x_crc.o
+CRC_CalcBlockCRC <= USED 0
+CRC_CalcCRC <= USED 0
+CRC_GetCRC <= USED 0
+CRC_GetIDRegister <= USED 0
+CRC_ResetDR <= USED 0
+CRC_SetIDRegister <= USED 0
+;FILE stm32f10x_dac.o
+DAC_Cmd <= USED 0
+DAC_DMACmd <= USED 0
+DAC_DeInit <= USED 0
+DAC_DualSoftwareTriggerCmd <= USED 0
+DAC_GetDataOutputValue <= USED 0
+DAC_Init <= USED 0
+DAC_SetChannel1Data <= USED 0
+DAC_SetChannel2Data <= USED 0
+DAC_SetDualChannelData <= USED 0
+DAC_SoftwareTriggerCmd <= USED 0
+DAC_StructInit <= USED 0
+DAC_WaveGenerationCmd <= USED 0
+;FILE stm32f10x_exti.o
+EXTI_ClearFlag <= USED 0
+EXTI_ClearITPendingBit <= USED 0
+EXTI_DeInit <= USED 0
+EXTI_GenerateSWInterrupt <= USED 0
+EXTI_GetFlagStatus <= USED 0
+EXTI_GetITStatus <= USED 0
+EXTI_Init <= USED 0
+EXTI_StructInit <= USED 0
+;FILE stm32f10x_flash.o
+FLASH_ClearFlag <= USED 0
+FLASH_EnableWriteProtection <= USED 0
+FLASH_EraseAllPages <= USED 0
+FLASH_EraseOptionBytes <= USED 0
+FLASH_ErasePage <= USED 0
+FLASH_GetFlagStatus <= USED 0
+FLASH_GetPrefetchBufferStatus <= USED 0
+FLASH_GetReadOutProtectionStatus <= USED 0
+FLASH_GetStatus <= USED 0
+FLASH_GetUserOptionByte <= USED 0
+FLASH_GetWriteProtectionOptionByte <= USED 0
+FLASH_HalfCycleAccessCmd <= USED 0
+FLASH_ITConfig <= USED 0
+FLASH_Lock <= USED 0
+FLASH_PrefetchBufferCmd <= USED 0
+FLASH_ProgramHalfWord <= USED 0
+FLASH_ProgramOptionByteData <= USED 0
+FLASH_ProgramWord <= USED 0
+FLASH_ReadOutProtection <= USED 0
+FLASH_SetLatency <= USED 0
+FLASH_Unlock <= USED 0
+FLASH_UserOptionByteConfig <= USED 0
+FLASH_WaitForLastOperation <= USED 0
+;FILE stm32f10x_gpio.o
+GPIO_AFIODeInit <= USED 0
+GPIO_DeInit <= USED 0
+GPIO_EXTILineConfig <= USED 0
+GPIO_EventOutputCmd <= USED 0
+GPIO_EventOutputConfig <= USED 0
+GPIO_PinLockConfig <= USED 0
+GPIO_PinRemapConfig <= USED 0
+GPIO_ReadInputData <= USED 0
+GPIO_ReadOutputData <= USED 0
+GPIO_ReadOutputDataBit <= USED 0
+GPIO_StructInit <= USED 0
+GPIO_Write <= USED 0
+GPIO_WriteBit <= USED 0
+;FILE stm32f10x_i2c.o
+I2C_ARPCmd <= USED 0
+I2C_AcknowledgeConfig <= USED 0
+I2C_CalculatePEC <= USED 0
+I2C_CheckEvent <= USED 0
+I2C_ClearFlag <= USED 0
+I2C_ClearITPendingBit <= USED 0
+I2C_Cmd <= USED 0
+I2C_DMACmd <= USED 0
+I2C_DMALastTransferCmd <= USED 0
+I2C_DeInit <= USED 0
+I2C_DualAddressCmd <= USED 0
+I2C_FastModeDutyCycleConfig <= USED 0
+I2C_GeneralCallCmd <= USED 0
+I2C_GenerateSTART <= USED 0
+I2C_GenerateSTOP <= USED 0
+I2C_GetFlagStatus <= USED 0
+I2C_GetITStatus <= USED 0
+I2C_GetLastEvent <= USED 0
+I2C_GetPEC <= USED 0
+I2C_ITConfig <= USED 0
+I2C_Init <= USED 0
+I2C_OwnAddress2Config <= USED 0
+I2C_PECPositionConfig <= USED 0
+I2C_ReadRegister <= USED 0
+I2C_ReceiveData <= USED 0
+I2C_SMBusAlertConfig <= USED 0
+I2C_Send7bitAddress <= USED 0
+I2C_SendData <= USED 0
+I2C_SoftwareResetCmd <= USED 0
+I2C_StretchClockCmd <= USED 0
+I2C_StructInit <= USED 0
+I2C_TransmitPEC <= USED 0
+;FILE stm32f10x_it.o
+;FILE stm32f10x_rcc.o
+RCC_ADCCLKConfig <= USED 0
+RCC_AHBPeriphClockCmd <= USED 0
+RCC_APB1PeriphClockCmd <= USED 0
+RCC_APB1PeriphResetCmd <= USED 0
+RCC_APB2PeriphResetCmd <= USED 0
+RCC_AdjustHSICalibrationValue <= USED 0
+RCC_BackupResetCmd <= USED 0
+RCC_ClearFlag <= USED 0
+RCC_ClearITPendingBit <= USED 0
+RCC_ClockSecuritySystemCmd <= USED 0
+RCC_DeInit <= USED 0
+RCC_GetFlagStatus <= USED 0
+RCC_GetITStatus <= USED 0
+RCC_GetSYSCLKSource <= USED 0
+RCC_HCLKConfig <= USED 0
+RCC_HSEConfig <= USED 0
+RCC_HSICmd <= USED 0
+RCC_ITConfig <= USED 0
+RCC_LSEConfig <= USED 0
+RCC_LSICmd <= USED 0
+RCC_MCOConfig <= USED 0
+RCC_PCLK1Config <= USED 0
+RCC_PCLK2Config <= USED 0
+RCC_PLLCmd <= USED 0
+RCC_PLLConfig <= USED 0
+RCC_RTCCLKCmd <= USED 0
+RCC_RTCCLKConfig <= USED 0
+RCC_SYSCLKConfig <= USED 0
+RCC_USBCLKConfig <= USED 0
+RCC_WaitForHSEStartUp <= USED 0
+;FILE stm32f10x_sdio.o
+SDIO_CEATAITCmd <= USED 0
+SDIO_ClearFlag <= USED 0
+SDIO_ClearITPendingBit <= USED 0
+SDIO_ClockCmd <= USED 0
+SDIO_CmdStructInit <= USED 0
+SDIO_CommandCompletionCmd <= USED 0
+SDIO_DMACmd <= USED 0
+SDIO_DataConfig <= USED 0
+SDIO_DataStructInit <= USED 0
+SDIO_DeInit <= USED 0
+SDIO_GetCommandResponse <= USED 0
+SDIO_GetDataCounter <= USED 0
+SDIO_GetFIFOCount <= USED 0
+SDIO_GetFlagStatus <= USED 0
+SDIO_GetITStatus <= USED 0
+SDIO_GetPowerState <= USED 0
+SDIO_GetResponse <= USED 0
+SDIO_ITConfig <= USED 0
+SDIO_Init <= USED 0
+SDIO_ReadData <= USED 0
+SDIO_SendCEATACmd <= USED 0
+SDIO_SendCommand <= USED 0
+SDIO_SendSDIOSuspendCmd <= USED 0
+SDIO_SetPowerState <= USED 0
+SDIO_SetSDIOOperation <= USED 0
+SDIO_SetSDIOReadWaitMode <= USED 0
+SDIO_StartSDIOReadWait <= USED 0
+SDIO_StopSDIOReadWait <= USED 0
+SDIO_StructInit <= USED 0
+SDIO_WriteData <= USED 0
+;FILE stm32f10x_usart.o
+USART_ClearITPendingBit <= USED 0
+USART_ClockInit <= USED 0
+USART_ClockStructInit <= USED 0
+USART_DMACmd <= USED 0
+USART_DeInit <= USED 0
+USART_HalfDuplexCmd <= USED 0
+USART_IrDACmd <= USED 0
+USART_IrDAConfig <= USED 0
+USART_LINBreakDetectLengthConfig <= USED 0
+USART_LINCmd <= USED 0
+USART_ReceiverWakeUpCmd <= USED 0
+USART_SendBreak <= USED 0
+USART_SetAddress <= USED 0
+USART_SetGuardTime <= USED 0
+USART_SetPrescaler <= USED 0
+USART_SmartCardCmd <= USED 0
+USART_SmartCardNACKCmd <= USED 0
+USART_StructInit <= USED 0
+USART_WakeUpConfig <= USED 0
+;FILE system_stm32f10x.o
+;FILE usart.o
